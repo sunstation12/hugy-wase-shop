@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Hugy wase shop/material/logo_web_border.png">
+    <link rel="stylesheet" href="/Hugy wase shop/file_manage/style.css">
+    <link rel="stylesheet" href="/Hugy wase shop/store_manage_id/style.css">
+    <title>Sun Station Shop | Hugy Wase Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&family=Open+Sans:ital@1&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Open+Sans&family=Play&family=Public+Sans&family=Signika:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo_web" id="header_logo_web">
+            <a href="/Hugy wase shop/store_manage_id/hgw_57829126847183265285189772839931363454588434554583">
+                <img src="/Hugy wase shop/material/logo_web.png">
+            </a>
+            <div id="header_logo_title">
+                <div id="header_main_logo_title">Hugy Wase Shop</div>
+                <div id="header_bottom_logo_title">Quản lí cửa hàng Hugy</div>
+            </div>
+        </div>
+
+        <div id="header_item_navigation">
+            <button class="header_items" id="btn_create_shop">Tạo Cửa Hàng Mới</button>
+        </div>
+    </header>
+
+    <div id="navigation">
+        <div class="nav_items" id="nav_btn_manage">Quản lí</div>
+        <div class="nav_items" id="nav_btn_tmdt">TMĐT</div>
+        <div class="nav_items" id="nav_btn_tactic">Chiến thuật</div>
+        <div class="nav_items" id="nav_btn_productivity">Năng suất</div>
+        <!-- <div class="nav_line"></div> -->
+    </div>
+
+    <!-- 57829126847183265285189772839931363454588434554583 -->
+    
+    <div id="container">
+        <div class="home_items">
+            <img
+            src="/Hugy wase shop/material/logo_web.png"
+            id="logo_shop"
+            >
+
+            <div id="shop_title">
+                <div id="shop_title_name">Sun Station</div>
+                <div id="shop_title_about">Làm video giải trí</div>
+            </div>
+        </div>
+
+        <div class="home_items">
+            <div>
+                <div id="about_shop_title">
+                    <div id="show_about_shop">
+                        Xem Giới thiệu Shop
+                    </div>
+
+                    <div id="hide_about_shop">
+                        Ẩn Giới thiệu Shop
+                    </div>
+
+                </div>
+                <div id="about_shop_box">
+                    Sun Station là một kênh gồm có 3 thành viên:<br>
+                    # Nguyễn Đức Việt;<br>
+                    # Nguyễn Ngọc Ánh;<br>
+                    # Chíp<br><br>
+
+                    Chuyên sáng tạo, sản xuất Video, Phim, Truyện Ngắn,... giải trí;<br>
+                    Các bạn có thể ghé qua kênh Youtube của chúng mình tại:<br>
+                    https://www.youtube.com/channel/UCVOoUEQaFXVblY6wF1vg_WQ<br><br>
+
+                    Chúc các bạn mua hàng vui vẻ!
+                </div>
+            </div>
+        </div>
+
+        <div class="home_items">
+            <div class="shop_title">Gian hàng</div>
+
+            <div class="goods_shop"
+            title="Video Big Game Thực Tế | 50.000 đ"
+            >
+                <img
+                src="/Hugy wase shop/material/breathe (3).png"
+                >
+                <div class="goods_title_name">Video Big Game Thực Tế</div>
+                <div class="goods_title_price">50.000 đ</div>
+            </div>
+
+            <div class="goods_shop"
+            title="Video Cuộc chiến không hồi kết | 60.000 đ"
+            >
+                <img
+                src="/Hugy wase shop/material/maxresdefault.jpg"
+                >
+                <div class="goods_title_name">Video Cuộc chiến không hồi kết</div>
+                <div class="goods_title_price">60.000 đ</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/Hugy wase shop/store_manage_id/main.js"></script>
+
+<script>
+    
+    document.getElementById("nav_btn_manage").onclick = function() {
+        window.location = "/Hugy wase shop/store_manage_id/hgw_57829126847183265285189772839931363454588434554583/user_shop/sun-station/manage";
+    }
+
+    document.getElementById("nav_btn_productivity").onclick = function() {
+        window.location = "/Hugy wase shop/store_manage_id/hgw_57829126847183265285189772839931363454588434554583/user_shop/sun-station/productivity";
+    }
+
+    document.getElementById("show_about_shop").onclick = function() {
+        document.getElementById("about_shop_box").style.display = "block";
+        document.getElementById("hide_about_shop").style.display = "inline-block";
+        document.getElementById("show_about_shop").style.display = "none";
+    }
+
+    document.getElementById("hide_about_shop").onclick = function() {
+        document.getElementById("about_shop_box").style.display = "none";
+        document.getElementById("hide_about_shop").style.display = "none";
+        document.getElementById("show_about_shop").style.display = "inline-block";
+    }
+    
+</script>
+
+</html>

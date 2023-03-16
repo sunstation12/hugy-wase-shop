@@ -1,0 +1,154 @@
+.home_items {
+    margin-bottom: 30px;
+}
+
+.home_title {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+}
+
+.home_text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 3px 8px;
+    margin-bottom: 28px;
+}
+
+.user_store_link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.user_store {
+    border-left: 3px solid var(--light-blue_color);
+    /* background-color: aqua; */
+    padding: 0px 0px 8px 12px;
+    cursor: default;
+    margin-top: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.user_store:hover {
+    background-color: var(--yellow_color);
+}
+
+.shop_title_name {
+    user-select: none;
+    font-size: 28px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.shop_title_field {
+    user-select: none;
+    font-size: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.shop_title_about {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shop_title_about #vv {
+    user-select: none;
+}
+
+#logo_shop {
+    margin-right: 10px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+#shop_title {
+    display: inline-block;
+}
+
+#shop_title_name {
+    font-size: 34px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#shop_title_about {
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.shop_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Signika', sans-serif;
+}
+
+.goods_shop {
+    cursor: pointer;
+    width: 210px;
+    padding: 4px;
+    margin-right: 10px;
+    background-color: var(--aliceblue_color);
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.goods_shop img {
+    width: 201px;
+    height: 201px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.goods_title_name {
+    font-size: 24px;
+    font-family: 'Signika', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.goods_title_price {
+    font-size: 19px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#box_name_rand {
+    user-select: none;
+    cursor: default;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+}
+
+#about_shop_title {
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+#about_shop_title div {
+    cursor: pointer;
+    color: #0000ff;
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#about_shop_title div:hover {
+    color: #ff0000;
+}
+
+#show_about_shop {
+    display: inline-block;
+}
+
+#hide_about_shop {
+    display: none;
+}
+
+#about_shop_box {
+    font-size: 20px;
+    display: none;
+    font-family: 'Play', sans-serif;
+}

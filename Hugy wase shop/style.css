@@ -1,0 +1,44 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 82vh;
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);
+    background: linear-gradient(to right, #2fa1ff, #00223E);
+}
+
+#title_welcome {
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#name_title {
+    color: yellow;
+    cursor: default;
+    user-select: none;
+    margin-bottom: 25px;
+    text-shadow: 3px 2px 4px #FFA17F;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#btn_div {
+    text-align: center;
+}
+
+#btn_div button {
+    border: none;
+    background: none;
+    background-color: rgb(173, 178, 255);
+    font-size: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: 0.2s;
+}
+
+#btn_div button:hover {
+    background-color: rgb(152, 159, 255);
+}

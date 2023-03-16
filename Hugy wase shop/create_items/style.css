@@ -1,0 +1,68 @@
+.home_items {
+    margin-bottom: 30px;
+}
+
+.home_title {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+}
+
+.home_text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home_title span {
+    color: red;
+    font-size: 18px;
+}
+
+b {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    width: 50%;
+    height: 33px;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 28px;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 3px 8px;
+    margin-bottom: 28px;
+}
+
+#success-msg {
+    color: blue;
+    font-family: roboto;
+    display: none;
+}
+
+.user_items {
+    border-left: 3px solid var(--light-blue_color);
+    padding: 28px 0px 0px 12px;
+    cursor: default;
+    margin-top: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.user_items:hover {
+    background-color: var(--yellow_color);
+}
+
+.items_title_name {
+    user-select: none;
+    font-size: 28px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.items_title_field {
+    user-select: none;
+    font-size: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}

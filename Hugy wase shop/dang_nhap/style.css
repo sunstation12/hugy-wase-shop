@@ -1,0 +1,57 @@
+.home_items {
+    margin-bottom: 30px;
+}
+
+.home_title {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+}
+
+.home_text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home_title span {
+    color: red;
+    font-size: 18px;
+}
+
+b {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    width: 50%;
+    height: 33px;
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 28px;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 3px 8px;
+    margin-bottom: 28px;
+}
+
+#success-msg {
+    color: blue;
+    font-family: roboto;
+    display: none;
+}
+
+#no_account {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#no_account a {
+    color: blue;
+    text-decoration: none;
+}
+
+#no_account a:hover {
+    text-decoration: underline;
+}

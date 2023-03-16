@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Hugy wase shop/material/logo_web_border.png">
+    <link rel="stylesheet" href="/Hugy wase shop/file_manage/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tạo mặt hàng mới | Hugy Wase Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&family=Open+Sans:ital@1&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo_web" id="header_logo_web">
+            <a href="/Hugy wase shop/home">
+                <img src="/Hugy wase shop/material/logo_web.png">
+            </a>
+            <div id="header_logo_title">
+                <div id="header_main_logo_title">Hugy Wase Shop</div>
+                <div id="header_bottom_logo_title">Quản lí cửa hàng Hugy</div>
+            </div>
+        </div>
+
+        <div id="header_item_navigation">
+            <button class="header_items" onclick="btn_create_items()" id="btn_create_items">Thêm Mặt Hàng Mới</button>
+            <label for="send" class="header_items" id="btn_create_shop">Tạo</label>
+        </div>
+    </header>
+
+    <div id="navigation">
+        <div class="nav_items" id="nav_btn_home">Trang Chủ</div>
+        <div class="nav_items" id="nav_btn_sign_in">Đăng nhập</div>
+        <div class="nav_items" id="nav_btn_sign_up">Đăng kí</div>
+        <div class="nav_items" id="nav_btn_tmdt">TMĐT</div>
+        <!-- <div class="nav_line"></div> -->
+    </div>
+    
+    <div id="container">
+        <b>Tạo Mặt hàng Mới</b><br><br>
+        <h3 id="success-msg" class="text-center">Đã tạo Mặt hàng Mới Thành Công! Đang chờ xét duyệt.</h3><br>
+        <!-- <div class="home_items">
+            <div class="home_title">Các cửa hàng của bạn:</div>
+            <i class="home_text">Bạn chưa lập Cửa Hàng nào! Hãy
+                <a style="
+                color: blue;
+                " href="/dang_nhap/">Đăng nhập</a>
+                để tiếp tục
+            </i>
+        </div> -->
+        <div>
+
+            <form name="cform" id="cform" target="_self" onsubmit="return postToGoogle();" action="">
+                <label for="nameField" class="home_title">
+                    <span>*</span>
+                    Tên Cửa Hàng:
+                </label>
+                <input id="nameField" name="entry.1719410041" type="text" required>
+
+                <div class="form_items" href="/Hugy wase shop/store_manage_id/hgw_57829126847183265285189772839931363454588434554583/user_shop/sun-station">
+                    <div class="user_items">
+                        <input id="name_itemsField" name="entry.2080944793" type="text" placeholder="Tên hàng hóa ..." required>
+                        <input id="dvt_itemsField" name="entry.898814997" type="text" placeholder="Đơn vị tính ..." required>
+                        <input id="price_itemsField" name="entry.1323956925" type="text" placeholder="Giá tiền ..." required>
+                    </div>
+                </div>
+
+                <button style="display:none;" type="submit" id="send" name="send">Gửi</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+</html>

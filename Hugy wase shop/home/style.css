@@ -1,0 +1,29 @@
+#set_Time {
+    display: none;
+}
+
+#set_Time_div {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    cursor: default;
+    user-select: none;
+}
+
+#hour {
+    margin-right: 10px;
+}
+
+.home_items {
+    margin-bottom: 30px;
+}
+
+.home_title {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6px;
+}
+
+.home_text {
+    font-family: 'Open Sans', sans-serif;
+}
